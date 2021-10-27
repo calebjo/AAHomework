@@ -31,7 +31,6 @@ class Simon
   def show_sequence
     add_random_color
     puts "Memorize this!"
-    puts "----------------------------------"
     @seq.each do |color|
       case color
       when "red"
