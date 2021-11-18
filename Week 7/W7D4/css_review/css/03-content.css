@@ -4,7 +4,9 @@
     background: white;
     width: 900px;
     margin: auto;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 .content-sidebar {
