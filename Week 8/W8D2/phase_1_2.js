@@ -37,5 +37,20 @@ function isPrime(number) {
 // console.log(isPrime(3548563));
 
 function sumOfNPrimes(n) {
+    var sum = 0;
+    var primes_count = 0;
+    let i = 2;
 
+    while (primes_count < n){
+        if (isPrime(i)) {
+            primes_count++;
+            sum += i;
+        }
+        i++;
+    }
+    return sum;
 }
+
+// console.log(sumOfNPrimes(0));
+// console.log(sumOfNPrimes(1));
+// console.log(sumOfNPrimes(4));
